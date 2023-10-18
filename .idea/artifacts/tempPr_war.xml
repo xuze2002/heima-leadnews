@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tempPr:war">
+    <output-path>$PROJECT_DIR$/tempPr/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tempPr</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tempPr-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tempPr:war exploded" />
+    </root>
+  </artifact>
+</component>

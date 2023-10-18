@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tempPr:war exploded">
+    <output-path>$PROJECT_DIR$/tempPr/target/tempPr-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>tempPr</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tempPr" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-log4j2:2.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.13.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.3" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.13.3" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-jul:2.13.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/tempPr/target/tempPr-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="tempPr/web/Web" />
+    </root>
+  </artifact>
+</component>

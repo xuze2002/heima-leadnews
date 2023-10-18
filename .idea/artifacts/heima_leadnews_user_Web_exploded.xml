@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="heima-leadnews-user:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/heima_leadnews_user_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="heima-leadnews-user/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="heima-leadnews-user" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
